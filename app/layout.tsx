@@ -48,15 +48,16 @@ export default function RootLayout({
         {children}
 
         {/* Footer */}
-        <footer className="border-t border-zinc-200 bg-sky-200">
-          <div className="mx-auto max-w-4xl px-6 py-10 text-zinc-700">
-            <div className="font-medium text-zinc-700 text-sm leading-6">Pivot Point Central</div>
-            <p className="mt-2">
-              Peer-support community, not therapy. Not for emergencies. If you’re in immediate
-              danger call 911. If you’re in crisis, call/text 988 (U.S.).
-            </p>
-          </div>
-        </footer>
+        <footer className="border-t border-sky-400 bg-sky-600">
+  <div className="mx-auto max-w-4xl px-6 py-10 text-white text-sm leading-6">
+    <div className="font-medium">Pivot Point Central</div>
+    <p className="mt-2 text-sky-100">
+      Peer-support community, not therapy. Not for emergencies. If you’re in immediate
+      danger call 911. If you’re in crisis, call/text 988 (U.S.).
+    </p>
+  </div>
+</footer>
+
       </body>
     </html>
   );
