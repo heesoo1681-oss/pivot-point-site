@@ -62,20 +62,20 @@ export default function Home() {
             <ul className="mt-4 grid gap-4 sm:grid-cols-3">
               <li className="rounded-xl border border-sky-200 p-4">
                 <div className="text-sm font-semibold">Psychology insight</div>
-                <div className="mt-2 text-sm leading-6 text-zinc-700">
+                <div className="mt-2 text-zinc-700 text-sm leading-6">
                   Psychological studies + practical takeaways to prevent isolation and reduce
                   social anxiety.
                 </div>
               </li>
               <li className="rounded-xl border border-sky-200 p-4">
                 <div className="text-sm font-semibold">Student story</div>
-                <div className="mt-2 text-sm leading-6 text-zinc-700">
+                <div className="mt-2 text-zinc-700 text-sm leading-6">
                   Personal stories and reflection—so you realize you’re not the only one.
                 </div>
               </li>
               <li className="rounded-xl border border-sky-200 p-4">
                 <div className="text-sm font-semibold">Skill mini-workshop</div>
-                <div className="mt-2 text-sm leading-6 text-zinc-700">
+                <div className="mt-2 text-zinc-700 text-sm leading-6">
                   Time management, stress control, and other practical skills.
                 </div>
               </li>

@@ -33,7 +33,7 @@ export default function RootLayout({
               Pivot Point Central
             </Link>
 
-            <nav className="flex items-center gap-4 text-sm font-medium text-white">
+            <nav className="flex items-center gap-4 text-white font-medium">
               <Link className="hover:text-sky-200" href="/about">About</Link>
               <Link className="hover:text-sky-200" href="/events">Events</Link>
               <Link className="hover:text-sky-200" href="/join">Join</Link>
@@ -47,9 +47,9 @@ export default function RootLayout({
         {children}
 
         {/* Footer */}
-        <footer className="border-t border-zinc-200 bg-white">
-          <div className="mx-auto max-w-4xl px-6 py-10 text-sm leading-6 text-zinc-700">
-            <div className="font-medium text-zinc-700">Pivot Point Central</div>
+        <footer className="border-t border-zinc-200 bg-sky-200">
+          <div className="mx-auto max-w-4xl px-6 py-10 text-zinc-700">
+            <div className="font-medium text-zinc-700 text-sm leading-6">Pivot Point Central</div>
             <p className="mt-2">
               Peer-support community, not therapy. Not for emergencies. If you’re in immediate
               danger call 911. If you’re in crisis, call/text 988 (U.S.).
