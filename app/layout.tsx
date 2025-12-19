@@ -34,7 +34,8 @@ export default function RootLayout({
               Pivot Point Central
             </Link>
 
-            <nav className="flex items-center gap-4 text-white font-medium">
+            <nav className="flex items-center gap-4 text-sm font-medium text-white">
+
               <Link className="hover:text-sky-200" href="/about">About</Link>
               <Link className="hover:text-sky-200" href="/events">Events</Link>
               <Link className="hover:text-sky-200" href="/join">Join</Link>

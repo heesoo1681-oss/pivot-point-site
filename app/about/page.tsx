@@ -25,7 +25,7 @@ export default function AboutPage() {
   
           <section className="rounded-2xl border border-white bg-sky-200 p-6">
             <h2 className="text-xl font-semibold">Our goal</h2>
-            <p className="mt-3 leading-7 white">
+            <p className="mt-3 leading-7 text-zinc-700">
               To make UT a community where you truly can find your identity through reflection, the “Why?”
               in your goals, and focus more on your well-being than putting all your eggs in one basket
               (academics, internships, career opportunities, relationships with one particular group or person).

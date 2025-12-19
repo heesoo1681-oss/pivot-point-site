@@ -8,7 +8,7 @@ export default function Home() {
             Pivot Point Central • UT Austin
           </div>
 
-          <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
+          <h1 className="text white text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
             A UT community built to reduce isolation—and rebuild belonging.
           </h1>
 
@@ -39,7 +39,8 @@ export default function Home() {
         {/* Sections */}
         <main className="mt-14 grid gap-10">
           <section className="rounded-2xl border border-sky-200 bg-white p-6">
-            <h2 className="text-xl font-semibold">Our mission</h2>
+          <h2 className="text-white text-xl font-semibold">
+          Our mission</h2>
             <p className="mt-3 leading-7 text-zinc-700">
               We are trying to spread awareness of this mental health decline in college
               students, targeting the UT campus, preventing excessive mental and physical
@@ -48,7 +49,7 @@ export default function Home() {
           </section>
 
           <section className="rounded-2xl border border-sky-200 bg-white p-6">
-            <h2 className="text-xl font-semibold">Our goal</h2>
+            <h2 className="text-white text-xl font-semibold">Our goal</h2>
             <p className="mt-3 leading-7 text-zinc-700">
               To make UT a community where you truly can find your identity through reflection,
               the “Why?” in your goals, and focus more on your well-being than putting all your
@@ -58,23 +59,23 @@ export default function Home() {
           </section>
 
           <section className="rounded-2xl border border-sky-200 bg-white p-6">
-            <h2 className="text-xl font-semibold">What we do</h2>
+            <h2 className="text-white text-xl font-semibold">What we do</h2>
             <ul className="mt-4 grid gap-4 sm:grid-cols-3">
               <li className="rounded-xl border border-sky-200 p-4">
-                <div className="text-sm font-semibold">Psychology insight</div>
+                <div className="text-white text-xl font-semibold">Psychology insight</div>
                 <div className="mt-2 text-zinc-700 text-sm leading-6">
                   Psychological studies + practical takeaways to prevent isolation and reduce
                   social anxiety.
                 </div>
               </li>
               <li className="rounded-xl border border-sky-200 p-4">
-                <div className="text-sm font-semibold">Student story</div>
+                <div className="text-white text-xl font-semibold">Student story</div>
                 <div className="mt-2 text-zinc-700 text-sm leading-6">
                   Personal stories and reflection—so you realize you’re not the only one.
                 </div>
               </li>
               <li className="rounded-xl border border-sky-200 p-4">
-                <div className="text-sm font-semibold">Skill mini-workshop</div>
+                <div className="text-white text-xl font-semibold">Skill mini-workshop</div>
                 <div className="mt-2 text-zinc-700 text-sm leading-6">
                   Time management, stress control, and other practical skills.
                 </div>
@@ -83,17 +84,17 @@ export default function Home() {
           </section>
 
           <section className="rounded-2xl border border-sky-200 bg-white p-6">
-            <h2 className="text-xl font-semibold">Quick links</h2>
+            <h2 className="text-white text-xl font-semibold">Quick links</h2>
             <div className="mt-4 flex flex-col gap-3 sm:flex-row">
               <a
                 href="/links"
-                className="inline-flex items-center justify-center rounded-xl border border-zinc-300 bg-white px-5 py-3 text-sm font-semibold hover:bg-zinc-100"
+                className="inline-flex items-center justify-center rounded-xl border border-zinc-300 bg-white px-5 py-3 text-white text-xl font-semibold hover:bg-zinc-100"
               >
                 Instagram • HornsLink • Discord
               </a>
               <a
                 href="/about"
-                className="inline-flex items-center justify-center rounded-xl border border-zinc-300 bg-white px-5 py-3 text-sm font-semibold hover:bg-zinc-100"
+                className="inline-flex items-center justify-center rounded-xl border border-zinc-300 bg-white px-5 py-3 text-white text-xl font-semibold hover:bg-zinc-100"
               >
                 Read the mission
               </a>
