@@ -5,14 +5,16 @@ export default function JoinPage() {
   
         <div className="mt-8 grid gap-6">
           <section className="rounded-2xl border border-white bg-sky-200 p-6">
-            <h2 className="text-xl font-semibold">Membership</h2>
+            <h2 className="text-black text-xl font-semibold"
+            >Membership</h2>
             <p className="mt-3 leading-7 text-zinc-700">
               We do not have any qualifications to be a member.
             </p>
           </section>
   
           <section className="rounded-2xl border border-white bg-sky-200 p-6">
-            <h2 className="text-xl font-semibold">Active member expectations</h2>
+            <h2 className="text-black text-xl font-semibold"
+            >Active member expectations</h2>
             <p className="mt-3 leading-7 text-zinc-700">
               To be considered an active member, you need to attend:
             </p>
@@ -24,7 +26,8 @@ export default function JoinPage() {
           </section>
   
           <section className="rounded-2xl border border-white bg-sky-200 p-6">
-            <h2 className="text-xl font-semibold">Executive board</h2>
+            <h2 className="text-black text-xl font-semibold"
+            >Executive board</h2>
             <p className="mt-3 leading-7 text-zinc-700">
               To be a part of the exec board, you do need to go through an interview process to show that you will
               put in a few hours per week of commitment consistently.
@@ -32,7 +35,8 @@ export default function JoinPage() {
           </section>
   
           <section className="rounded-2xl border border-white bg-sky-200 p-6">
-            <h2 className="text-xl font-semibold">Next step</h2>
+            <h2 className="text-black text-xl font-semibold"
+            >Next step</h2>
             <p className="mt-3 leading-7 text-zinc-700">
               Connect with us via Instagram, HornsLink, and Discord on the Links page.
             </p>

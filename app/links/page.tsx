@@ -20,7 +20,8 @@ const LINKS = [
               href={l.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-2xl border border-zinc-200 bg-sky-200 p-6 text-center font-semibold hover:bg-zinc-100"
+              className="rounded-2xl border border-sky-400 bg-sky-100 p-6 text-center font-semibold text-black hover:bg-sky-200"
+
             >
               {l.label}
             </a>
