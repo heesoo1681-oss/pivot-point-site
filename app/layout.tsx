@@ -24,7 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ colorScheme: "light" }}>
+
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-sky-500 text-white`}>
         {/* Navbar */}
         <header className="sticky top-0 z-50 border-b border-sky-400 bg-sky-600 backdrop-blur">
