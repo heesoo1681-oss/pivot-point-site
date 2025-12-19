@@ -8,7 +8,8 @@ export default function Home() {
             Pivot Point Central • UT Austin
           </div>
 
-          <h1 className="text black text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
+          <h1 className="!text-black text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
+
             A UT community built to reduce isolation—and rebuild belonging.
           </h1>
 
