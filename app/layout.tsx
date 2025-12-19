@@ -25,19 +25,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-50 text-zinc-900`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-sky-500 text-white`}>
         {/* Navbar */}
-        <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur">
+        <header className="sticky top-0 z-50 border-b border-sky-400 bg-sky-600 backdrop-blur">
           <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
             <Link href="/" className="font-semibold tracking-tight">
               Pivot Point Central
             </Link>
 
-            <nav className="flex items-center gap-4 text-sm font-medium text-zinc-700">
-              <Link className="hover:text-zinc-900" href="/about">About</Link>
-              <Link className="hover:text-zinc-900" href="/events">Events</Link>
-              <Link className="hover:text-zinc-900" href="/join">Join</Link>
-              <Link className="hover:text-zinc-900" href="/links">Links</Link>
+            <nav className="flex items-center gap-4 text-sm font-medium text-white">
+              <Link className="hover:text-sky-200" href="/about">About</Link>
+              <Link className="hover:text-sky-200" href="/events">Events</Link>
+              <Link className="hover:text-sky-200" href="/join">Join</Link>
+              <Link className="hover:text-sky-200" href="/links">Links</Link>
               <Link
                 href="/join"
                 className="ml-2 rounded-xl bg-zinc-900 px-4 py-2 text-white hover:bg-zinc-800"
