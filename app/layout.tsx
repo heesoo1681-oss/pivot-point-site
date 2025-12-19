@@ -40,7 +40,7 @@ export default function RootLayout({
               <Link className="hover:text-sky-200" href="/links">Links</Link>
               <Link
                 href="/join"
-                className="ml-2 rounded-xl bg-zinc-900 px-4 py-2 text-white hover:bg-zinc-800"
+                className="ml-2 rounded-xl bg-zinc-900 px-4 py-2 text-zinc-500 hover:bg-zinc-800"
               >
                 Join
               </Link>

@@ -12,7 +12,7 @@ export default function Home() {
             A UT community built to reduce isolation—and rebuild belonging.
           </h1>
 
-          <p className="max-w-2xl text-lg leading-8 text-white">
+          <p className="max-w-2xl text-lg leading-8 text-zinc-700">
             We believe the trend of declining mental health in teens and young adults has a
             strong correlation with mental and physical isolation. Especially in a new
             environment like college, almost 100% of freshmen feel lost and lonely at some
@@ -23,7 +23,7 @@ export default function Home() {
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
               href="/join"
-              className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-white hover:bg-zinc-800"
+              className="inline-flex items-center justify-center rounded-xl bg-zinc-500 px-5 py-3 text-sm font-semibold text-white hover:bg-zinc-800"
             >
               Join Pivot Point
             </a>
@@ -49,7 +49,7 @@ export default function Home() {
 
           <section className="rounded-2xl border border-sky-200 bg-white p-6">
             <h2 className="text-xl font-semibold">Our goal</h2>
-            <p className="mt-3 leading-7 text-white">
+            <p className="mt-3 leading-7 text-zinc-700">
               To make UT a community where you truly can find your identity through reflection,
               the “Why?” in your goals, and focus more on your well-being than putting all your
               eggs in one basket (academics, internships, career opportunities, relationships
@@ -69,13 +69,13 @@ export default function Home() {
               </li>
               <li className="rounded-xl border border-sky-200 p-4">
                 <div className="text-sm font-semibold">Student story</div>
-                <div className="mt-2 text-sm leading-6 text-white">
+                <div className="mt-2 text-sm leading-6 text-zinc-700">
                   Personal stories and reflection—so you realize you’re not the only one.
                 </div>
               </li>
               <li className="rounded-xl border border-sky-200 p-4">
                 <div className="text-sm font-semibold">Skill mini-workshop</div>
-                <div className="mt-2 text-sm leading-6 text-white">
+                <div className="mt-2 text-sm leading-6 text-zinc-700">
                   Time management, stress control, and other practical skills.
                 </div>
               </li>
