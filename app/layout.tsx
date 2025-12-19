@@ -38,12 +38,7 @@ export default function RootLayout({
               <Link className="hover:text-sky-200" href="/events">Events</Link>
               <Link className="hover:text-sky-200" href="/join">Join</Link>
               <Link className="hover:text-sky-200" href="/links">Links</Link>
-              <Link
-                href="/join"
-                className="ml-2 rounded-xl bg-zinc-900 px-4 py-2 text-zinc-500 hover:bg-zinc-800"
-              >
-                Join
-              </Link>
+      
             </nav>
           </div>
         </header>
@@ -54,7 +49,7 @@ export default function RootLayout({
         {/* Footer */}
         <footer className="border-t border-zinc-200 bg-white">
           <div className="mx-auto max-w-4xl px-6 py-10 text-sm leading-6 text-white">
-            <div className="font-medium text-white">Pivot Point Central</div>
+            <div className="font-medium text-zinc-700">Pivot Point Central</div>
             <p className="mt-2">
               Peer-support community, not therapy. Not for emergencies. If you’re in immediate
               danger call 911. If you’re in crisis, call/text 988 (U.S.).

@@ -4,7 +4,7 @@ export default function Home() {
       <div className="mx-auto max-w-4xl px-6 py-14">
         {/* Header */}
         <header className="flex flex-col gap-6">
-          <div className="inline-flex w-fit items-center rounded-full border border-sky-500 bg-white px-4 py-2 text-sm font-medium">
+          <div className="inline-flex w-fit items-center rounded-full border border-sky-500 bg-blue-500 px-4 py-2 text-sm font-medium">
             Pivot Point Central • UT Austin
           </div>
 
@@ -101,11 +101,7 @@ export default function Home() {
           </section>
         </main>
 
-        {/* Footer disclaimer */}
-        <footer className="mt-14 border-t border-sky-200 pt-6 text-sm leading-6 text-zinc-600">
-          Pivot Point Central is a peer-support community, not therapy. Not for emergencies.
-          If you’re in immediate danger call 911. If you’re in crisis, call/text 988 (U.S.).
-        </footer>
+        
       </div>
     </div>
   );
