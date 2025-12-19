@@ -9,7 +9,7 @@ const LINKS = [
     return (
       <div className="mx-auto max-w-4xl px-6 py-14">
         <h1 className="text-3xl font-semibold tracking-tight">Links</h1>
-        <p className="mt-3 max-w-2xl leading-7 text-zinc-700">
+        <p className="mt-3 max-w-2xl leading-7 text-white">
           Follow and join Pivot Point Central on the platforms below.
         </p>
   
@@ -20,7 +20,7 @@ const LINKS = [
               href={l.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-2xl border border-zinc-200 bg-white p-6 text-center font-semibold hover:bg-zinc-100"
+              className="rounded-2xl border border-zinc-200 bg-sky-200 p-6 text-center font-semibold hover:bg-zinc-100"
             >
               {l.label}
             </a>

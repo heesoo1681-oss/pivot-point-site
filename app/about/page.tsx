@@ -4,7 +4,7 @@ export default function AboutPage() {
         <h1 className="text-3xl font-semibold tracking-tight">Mission & Goal</h1>
   
         <div className="mt-8 grid gap-6">
-          <section className="rounded-2xl border border-zinc-200 bg-white p-6">
+          <section className="rounded-2xl border border-white bg-sky-200 p-6">
             <h2 className="text-xl font-semibold">Underlying problems</h2>
             <p className="mt-3 leading-7 text-zinc-700">
               We believe that the trend of declining mental health in teens and young adults has a strong
@@ -14,7 +14,7 @@ export default function AboutPage() {
             </p>
           </section>
   
-          <section className="rounded-2xl border border-zinc-200 bg-white p-6">
+          <section className="rounded-2xl border border-white bg-sky-200 p-6">
             <h2 className="text-xl font-semibold">Our mission</h2>
             <p className="mt-3 leading-7 text-zinc-700">
               We are trying to spread awareness of this mental health decline in college students, targeting
@@ -23,9 +23,9 @@ export default function AboutPage() {
             </p>
           </section>
   
-          <section className="rounded-2xl border border-zinc-200 bg-white p-6">
+          <section className="rounded-2xl border border-white bg-sky-200 p-6">
             <h2 className="text-xl font-semibold">Our goal</h2>
-            <p className="mt-3 leading-7 text-zinc-700">
+            <p className="mt-3 leading-7 white">
               To make UT a community where you truly can find your identity through reflection, the “Why?”
               in your goals, and focus more on your well-being than putting all your eggs in one basket
               (academics, internships, career opportunities, relationships with one particular group or person).

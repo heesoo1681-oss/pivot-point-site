@@ -53,8 +53,8 @@ export default function RootLayout({
 
         {/* Footer */}
         <footer className="border-t border-zinc-200 bg-white">
-          <div className="mx-auto max-w-4xl px-6 py-10 text-sm leading-6 text-zinc-600">
-            <div className="font-medium text-zinc-800">Pivot Point Central</div>
+          <div className="mx-auto max-w-4xl px-6 py-10 text-sm leading-6 text-white">
+            <div className="font-medium text-white">Pivot Point Central</div>
             <p className="mt-2">
               Peer-support community, not therapy. Not for emergencies. If you’re in immediate
               danger call 911. If you’re in crisis, call/text 988 (U.S.).
